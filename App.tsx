@@ -73,7 +73,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-slate-100 text-slate-800">
       <Header title="راهنمای جامع آمادگی و بقا در شرایط بحران: ویژه شهروندان ایرانی" />
-      <main className="flex-grow container mx-auto p-4 md:p-6 space-y-8">
+      <main role="main" className="flex-grow container mx-auto p-4 md:p-6 space-y-8">
         <Section title="مقدمه: چرا باید آماده باشیم؟ (بدون ترس، با آگاهی)">
           <p className="text-base md:text-lg leading-relaxed mb-4">
             در فضای پرتنش کنونی، صحبت از آمادگی برای شرایط بحرانی ممکن است نگران‌کننده به نظر برسد. اما هدف این راهنما، ایجاد ترس و وحشت نیست؛ بلکه دقیقاً برعکس، هدف آن ارائه دانشی است که ترس را به آگاهی، اضطراب را به اقدام، و حس ناتوانی را به توانمندی تبدیل می‌کند. آمادگی، نشانه وحشت‌زدگی نیست، بلکه یک اقدام عقلانی و قدرتمند برای در دست گرفتن کنترل زندگی خود و خانواده‌مان در شرایط عدم قطعیت است.
@@ -562,7 +562,7 @@ const App: React.FC = () => {
         </Section>
 
       </main>
-      <footer className="bg-slate-800 text-slate-300 p-6 text-center text-sm leading-relaxed">
+      <footer role="contentinfo" className="bg-slate-800 text-slate-300 p-6 text-center text-sm leading-relaxed">
         <p>
           این راهنما با هدف افزایش آگاهی و آمادگی تهیه شده است. نظرات و پیشنهادات شما برای ما ارزشمند است.
         </p>

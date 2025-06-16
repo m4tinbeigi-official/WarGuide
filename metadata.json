@@ -1,5 +1,6 @@
 {
   "name": "Component App Fix",
   "description": "A simple React application demonstrating a fix for a default export issue and basic component structure using Tailwind CSS.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "prompt": ""
 }
